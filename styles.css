@@ -127,6 +127,12 @@ img { display: block; max-width: 100%; height: auto; }
 .faq-list details[open] summary::after { content: "−"; }
 .faq-list details p { padding: 0 16px 14px; }
 
+.table-wrap { overflow-x: auto; margin: 10px 0; }
+.seo table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.seo th { background: var(--red); color: #fff; text-align: left; padding: 8px; }
+.seo td { padding: 8px; border: 1px solid #333; vertical-align: top; }
+.seo tbody tr:nth-child(even) td { background: #1c1c1c; }
+
 /* ---------- Floats ---------- */
 .side-tabs { position: fixed; right: max(0px, calc(50% - var(--app-width) / 2)); top: 40%; z-index: 20; display: grid; gap: 6px; }
 .side-tabs img { width: 30px; }
